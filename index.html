@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>Задание 2</h1>
+
+    <form action="">
+<fieldset>
+<legend>Контакная информация</legend>
+<label>
+    Имя* <input type="text" name="name" required> <br><br>
+    Телефон <input type="text" name="tel" pattern="2-[0-9]{3}-[0-9]{3}"> <br><br>
+    Email* <input type="email" name="email" required> <br><br>
+</label>
+</fieldset>
+
+<fieldset>
+<legend>Персональная иформация</legend>
+<label>
+Возраст* <input type="number" name="age" min="1" max="100">
+Пол 
+<select name="gender">
+    <option value="none" disabled selected>Выберите пол</option>
+    <option value="men">Мужской</option>
+    <option value="women">Женский</option>
+</select>
+</fieldset>
+
+<fieldset>
+    <legend>Выберите ваших любимых животных</legend>
+        <input type="checkbox" name="animal" value="zebra"> Зебра</label>
+        <input type="checkbox" name="animal" value="cat"> Кошка</label>
+        <input type="checkbox" name="animal" value="anakonda"> Анаконда</label> <br><br>
+        <input type="checkbox" name="animal" value="slon"> Слон</label>
+        <input type="checkbox" name="animal" value="antilopa"> Антилопа</label>
+        <input type="checkbox" name="animal" value="golyb"> голубь</label>
+        <input type="checkbox" name="animal" value="krab"> краб </label>
+    
+</fieldset>
+<br><br>
+<button type="submit">Отправить информацию</button>
+</fieldset>
+
+    </form>
+</body>
+<!-- 
+ -->
+    <table border="1">
+        <caption>Заголовок таблицы</caption>
+        <tr>
+            <td>1 ячейка</td>
+            <td>2 ячейка</td>
+            <td>3 ячейка</td>
+        </tr>
+        <tr>
+            <td>1 ячейка</td>
+            <td>2 ячейка</td>
+            <td>3 ячейка</td>
+        </tr>
+    </table>
+
+
+
+    <h2>Таблица</h2>
+
+    <table border="1">
+        <caption>Автомобили</caption>
+        <thead>
+            <tr>
+                <th>Номер</th>
+                <th>Марка</th>
+                <th>Модель</th>
+                <th>Стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>тойота</td>
+                <td>Corolla</td>
+                <td>190000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>тойота</td>
+                <td>Camry</td>
+                <td>240000</td>
+            </tr>
+
+            <td>1</td>
+            <td>тойота</td>
+            <td>RAV 4</td>
+            <td>260000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"> Итого</td>
+                <td>690000</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+
+
+
+    <h2>Вторая таблица</h2>
+
+    <table border="1">
+        <thead>
+            <style>
+            </style>
+            <h1></h1>
+            <tr>
+                <th rowspan="2">номер</th>
+                <th colspan="2">теги</th>
+            </tr>
+            <tr>
+                <th>тег</th>
+                <th>Значение</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>p</td>
+                <td rowspan="4">для текста</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>table</td>
+                <td>таблица</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>tr</td>
+                <td>ряд таблицы</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>td</td>
+                <td rowspan="2">ячейки таблицы</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>th</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <h2>Задание 3</h2>
+
+
+
+    <table border="">
+        <tbody>
+            <tr>
+                <th>Простой заголовок</th>
+                <th colspan="2">Заголовок на 2 столбца</th>
+
+            <tr>
+                <th>Заголовок на 1 стоку</th>
+                <td>Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            </tr>
+            <tr>
+                <th rowspan="3">Заголовок на 3 строки</th>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>
+            <tr>
+                <td>Ячейка 5</td>
+                <td rowspan="2">Ячейка 6</td>
+            </tr>
+            <tr>
+                <td>Ячейка 7</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <h1>Задание 4</h1>
+        <table border="1">
+            <caption>Учебный план</caption>
+            <thead>
+                <tr>
+                    <th rowspan="4">Наименование дисциплин</th>
+                    <th colspan="2" rowspan="2">Расписание по семестрам</th>
+                    <th colspan="7">Количество часов</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Всего часов</td>
+                    <td colspan="5">С преподавателем</td>
+                    <td rowspan="3">Самостоятельная работа</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Экзамен</td>
+                    <td rowspan="2">Зачет</td>
+                    <td colspan="4">Аудиторные занятия</td>
+                    <td rowspan="2">Индивидуальные занятия</td>
+                </tr>
+
+                <tr>
+                    <td>Всего</td>
+                    <td>Лекции</td>
+                    <td>Лабораторные занятия</td>
+                    <td>практические занятия</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Информатика</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>235</td>
+                    <td>136</td>
+                    <td>34</td>
+                    <td>102</td>
+                    <td>-</td>
+                    <td>30</td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <td>Математика</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>235</td>
+                    <td>136</td>
+                    <td>34</td>
+                    <td>102</td>
+                    <td>-</td>
+                    <td>30</td>
+                    <td>66</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Всего (ч)</th>
+                    <th>532</th>
+                    <th>336</th>
+                    <th>84</th>
+                    <th>152</th>
+                    <th>50</th>
+                    <th>80</th>
+                    <th>166</th>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </body>
+
+    </html>
+
+
+
+</html>
